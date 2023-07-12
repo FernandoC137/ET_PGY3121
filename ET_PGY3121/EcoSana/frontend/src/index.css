@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-text-gradient {
+  background: #16a34a;
+  background: linear-gradient(to right, #16a34a 0%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-image-container {
+  width: 1000px;
+  height: 500px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dark {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.dark-nav-mobileA {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-nav-mobileB {
+  background-color: #444;
+  color: #ffffff;
+}
+
+.dark .text-white {
+  color: #ffffff;
+}
+
+.dark-card {
+  background-color: #111;
+  color: #ffffff;
+}
+
+.dark-form {
+  background-color: #dedede;
+  color: #ffffff;
+}
+
+.h-300 {
+  height: 300px;
+}
